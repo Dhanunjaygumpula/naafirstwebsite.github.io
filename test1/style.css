@@ -1,0 +1,394 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 100px;
+    display:flex;
+    justify-content: space-between;  
+}
+.logo a{
+    font-size:30px;
+    color: red;
+    font-weight: bold;
+
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 0px;
+    float: right;
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+ul li a:hover,#mobile_menu ul li:hover{
+    color: red;
+}
+.header{
+    background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    background-color:black;
+}
+
+
+.footer{
+    background-color: black;
+}
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+
+
+button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+}
+
+button:hover{
+    background: black;
+    color: red;
+}
+
+
+
+.overlay{
+    background: rgba(0,0,0,.6);
+    height: 100vh;
+}
+.overlay1{
+    background: rgba(0,0,0,.6);
+    height: 150vh;
+}
+
+
+.footer-col h4{
+     color: red;
+    text-transform:  capitalize;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul1{
+    list-style: none;
+}
+
+
+ul1 li a:hover{
+    color:white;
+    background-color: red;
+}
+.footer-col{
+    width: 50%;
+    padding:0 15px;
+}
+.social1{
+    margin-right:150px;
+    float: right;
+}
+
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.footer-col .social-links a:hover{
+    color: white;
+    background-color: red;
+}
+
+
+
+#menu{
+    padding: 25px 0 25px 0;
+}
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+
+#menu_col{
+    border: 1px solid white;
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+}
+#menu_col h2{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+ #image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid red;
+ }
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h3{
+    color:white;
+}
+h4{
+    color:white;
+}
+.box{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ margin:5px;
+}
+
+.header1{
+    background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+
+
+#chef{
+    padding: 25px 0 25px 0;
+}
+#chef_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.chef_col{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+#img{
+    width: 20px;
+    height: 25px;
+    margin:auto;
+}
+#img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+#contact{
+    padding: 25px 0 25px 0;
+}
+
+#contact_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    flex-wrap: wrap;
+}
+
+.contact_col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.contact_col p,h3{
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+
+.contact_col p a{
+    font-weight: bold;
+    color: white;
+}
+.contact_col p a:hover{
+    color:red;
+}
+#social a{
+    color:white;
+    margin:3px;
+}
+#social a:hover{
+    color:red;
+}
+
+.contact_col form{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 70%;
+    padding: 20px 40px 20px 20px;
+}
+.contact_col form h2{
+    text-align: center;
+    font-family: bold;
+    color: red;
+    margin: 5px;
+}
+.contact_col form input{
+   width:100%;
+   height: 17pt;
+   padding: 5px;
+   margin: 5px;
+}
+.contact_col form textarea{
+    width:100%;
+    padding: 5px;
+    margin: 5px;
+}
+.contact_col form button{
+    margin: auto;
+}
+
+#about{
+    padding: 25px 0 25px 0;
+}
+#about_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px;
+}
+.about_col{
+    flex: 1;
+}
+#about_img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+#about_img img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.about_col{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+#mobile_menu{
+    display: none;
+    height: 40px;
+    line-height: 40px;
+}
+#mobile_menu ul{
+     display: flex;  
+     justify-content: center;
+}
+#mobile_menu ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+}
+#mobile_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width :786px){
+    #mobile_menu{
+        display: block;
+    }
+    #navbar ul{
+        display: none;
+    }
+    html{
+        font-size: 95%;
+    }
+    #menu_row{
+        flex-wrap: wrap;
+        padding:0 10px 0 10px;
+    }
+}
+@media screen and (max-width :360px){
+       html{
+        font-size: 70%;
+       }
+}
